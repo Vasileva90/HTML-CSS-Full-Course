@@ -1,0 +1,29 @@
+/* div.section ul#list.main .main-item span.text{
+    color: green;
+}
+
+div.section ul#list.main .main-item p.text{
+    color: red;
+} */
+
+/* .main .main-item .text{
+    color: darkcyan;
+} */
+
+/* Select direct child/element */
+/* .main .main-item > .text{
+    color: darkcyan;
+} */
+
+/* .main .main-item > .text,
+.sub .sub-item > .text{
+    color: red;
+} */
+
+.main .main-item > .text{
+    color: red;
+}
+
+.main .main-item > .text{
+    color: blue;
+}
