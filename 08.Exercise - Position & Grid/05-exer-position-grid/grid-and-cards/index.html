@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- DESIGN INSPIRATION -->
+<!-- https://uxdesign.cc/not-just-boxes-card-components-in-design-systems-568e97501ba0 -->
+<!-- https://dribbble.com/shots/10979103-UI-Card-Components -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/card.css" />
+    <link rel="stylesheet" href="styles/panel.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="https://seeklogo.com/images/S/software-university-logo-2D117356A9-seeklogo.com.png" alt="LOGO">
+
+        <nav class="nav">
+            <ul role="list">
+                <li class="nav__item"><a href="" class="nav__item__link">Home</a></li>
+                <li class="nav__item"><a href="" class="nav__item__link">News</a></li>
+                <li class="nav__item"><a href="" class="nav__item__link">About</a></li>
+                <li class="nav__item"><a href="" class="nav__item__link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="layout">
+
+            <article class="layout-item-1 card">
+                <div class="head">
+                    <span class="head__tag">SPAIN</span>
+                    <img class="head__img"
+                        src="./image1.jpg"
+                        alt="Card image">
+                </div>
+
+                <div class="content content--icon">
+                    <h2 class="content__title">Toiedo, Spain</h2>
+                    <p class="content__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <button class="content__icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="layout-item-2 card">
+                <div class="head">
+                    <span class="head__tag">SPAIN</span>
+                    <img class="head__img"
+                        src="https://images.unsplash.com/photo-1622929258644-c4c5a922c7c0?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Card image">
+                </div>
+
+                <div class="content content--icon">
+                    <h2 class="content__title">Toiedo, Spain</h2>
+                    <p class="content__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <button class="content__icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="layout-item-3 card">
+                <div class="head">
+                    <span class="head__tag">SPAIN</span>
+                    <img class="head__img"
+                        src="https://images.unsplash.com/photo-1643782806267-a8c374542904?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Card image">
+                </div>
+
+                <div class="content content--icon">
+                    <h2 class="content__title">Toiedo, Spain</h2>
+                    <p class="content__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <button class="content__icon">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="layout-item-4 card card--read-more">
+                <div class="head">
+                    <span class="head__tag">SPAIN</span>
+                    <img class="head__img"
+                        src="https://images.unsplash.com/photo-1645485312324-ad4b2ac800d9?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Card image">
+                </div>
+
+                <div class="content">
+                    <h2 class="content__title">Toiedo, Spain</h2>
+                    <p class="content__desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor,
+                        sit amet consectetur adipisicing elit. Voluptatem omnis vel assumenda ratione debitis
+                        perspiciatis repellat, incidunt molestiae eligendi corporis! Quod quaerat provident 
+                        laboriosam.
+                    </p>
+                    <button class="content__btn">
+                        Read more
+                    </button>
+                </div>
+            </article>
+
+            <article class="layout-item-5 card card--bg-img">
+
+                <img class="card__bg-img"
+                    src="https://images.unsplash.com/photo-1592634244339-809d45f1dd25?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Card image">
+
+                <div class="head">
+                    <span class="head__tag">SPAIN</span>
+                    <button class="head__action">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h2 class="content__title">The Colosseum</h2>
+                    <p class="content__desc">Lorem ipsum dolor</p>
+                </div>
+            </article>
+
+            <article class="layout-item-6 card card--bg-img">
+
+                <img class="card__bg-img"
+                    src="https://images.unsplash.com/photo-1582046160033-44e99ada28c2?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Card image">
+
+                <div class="head">
+                    <span class="head__tag">SPAIN</span>
+                    <button class="head__action">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+
+                <div class="content">
+                    <h2 class="content__title">The Colosseum</h2>
+                    <p class="content__desc">Lorem ipsum dolor</p>
+                </div>
+            </article>
+
+            <div class="layout-item-7 panel">
+                <i class="panel__icon fa-solid fa-comments"></i>
+                <p class="panel__text">Comments</p>
+            </div>
+
+            <div class="layout-item-8 panel">
+                <i class="panel__icon fa-solid fa-comments"></i>
+                <p class="panel__text">Comments</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
