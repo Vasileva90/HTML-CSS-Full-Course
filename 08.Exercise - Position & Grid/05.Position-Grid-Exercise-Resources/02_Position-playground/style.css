@@ -1,0 +1,53 @@
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+
+section {
+    height: 50vh;
+}
+
+section:first-child {
+    background-image: linear-gradient(
+        to right,
+        #185a9d,
+        #007ab4,
+        #0099bb,
+        #00b5b3,
+        #43cea2
+    );
+}
+
+section:first-child img {
+    width: 300px;
+}
+
+section:last-child {
+    background-image: linear-gradient(
+    to right,
+    #a83279,
+    #c53764,
+    #d6494c,
+    #db6532,
+    #d38312
+  );
+}
+
+section:last-child img {
+    width: 200px;
+}
+
+section{
+    position: relative;
+}
+
+section .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section .container .icon{
+    color: white;
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+}
